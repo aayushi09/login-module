@@ -21,10 +21,8 @@ public class Login {
 			ResultSet result = statement.executeQuery();
 
 			while (result.next()) {
-				System.out.println("Inside while");
 				return true;
 			}
-			System.out.println("Outside");
 
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -13,7 +13,7 @@ public class Login {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/ulogin", "root",
-					"root");
+					"aayushi");
 			PreparedStatement statement = (PreparedStatement) con
 					.prepareStatement("select * from login where uname=? and password=?");
 			statement.setString(1, uname);

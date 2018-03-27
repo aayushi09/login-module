@@ -19,10 +19,17 @@ public class login extends HttpServlet {
 		String password= request.getParameter("pass");
 		Login lg =new Login();
 		if(lg.check(username,password )== true)
-		{
+		{  
+			if(lg.check(username).equals("user")) {
 			HttpSession session = request.getSession();
-			session.setAttribute("username",username);
+			session.setAttribute("uname",username);
 			response.sendRedirect("welcome.jsp");
+			}
+			else if(lg.check(username).equals("admin")) {
+				response.sendRedirect("Admin.jsp");
+			}
+			else 
+				response.sendRedirect("login.jsp");
 		}
 	else {
 			response.sendRedirect("login.jsp");

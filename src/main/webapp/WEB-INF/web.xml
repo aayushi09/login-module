@@ -4,4 +4,34 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterServ</servlet-name>
+  	<display-name>RegisterServ</display-name>
+  	<description></description>
+  	<servlet-class>RegisterServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeServ</servlet-name>
+  	<display-name>HomeServ</display-name>
+  	<description></description>
+  	<servlet-class>HomeServ</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminServ</servlet-name>
+  	<display-name>AdminServ</display-name>
+  	<description></description>
+  	<servlet-class>AdminServ</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterServ</servlet-name>
+  	<url-pattern>/RegisterServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeServ</servlet-name>
+  	<url-pattern>/HomeServ</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminServ</servlet-name>
+  	<url-pattern>/AdminServ</url-pattern>
+  </servlet-mapping>
 </web-app>

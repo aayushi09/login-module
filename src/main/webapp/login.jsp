@@ -7,13 +7,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>login form</title>
-<link rel="stylesheet" href="login.css" / >
+<link rel="stylesheet" href="css/login.css" / >
 </head>
 <body><div class="title">
 <h1 >StyleMe</h1></div>
 	<div class="loginBox">
 
-		<img src="user2.png" style="opacity:0.6;" class="user"> <br>
+		<img src="images/user.png" style="opacity:0.6;" class="user"> <br>
 		
 		<p>
 		<h2 align="center">Sign In</h2>

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url("../images/image1.jpg");
+	background-size: cover;
+	font-family:sans-serif;
+	color:#FFFFFF;
+	text-shadow:2px 2px 4px #000000;
+	
+}
+.loginBox{
+	position: absolute;
+	top: 60%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height:420px;
+	padding:40px 40px;
+	box-sizing:border-box;
+	background:rgba(0,0,0,0.5);
+	
+}
+.user{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+	top:calc(30px);
+	right:70%
+	
+	
+}
+.loginBox input{
+	width:100%;
+	margin-bottom:10px;
+	
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"]{
+	border:none;
+	border-bottom:1px solid #FFF;
+	background:transparent;
+	color:#fff;
+	font-size:16px;
+}
+
+.loginBox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	
+}
+.loginBox input[type="submit"]{
+	border:none;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background:#ff267e;
+	border-radius:20px;
+}
+.loginBox input[type="submit"]:hover{
+	background:#FFE633;
+}
+h1 {
+	font-family:Brush Script MT,cursive ;
+	font-size: 160px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color:#FFE633;
+	
+}
+.title{
+	position: absolute;
+	top: -5%;
+	left:0%;
+	
+	
+}
+

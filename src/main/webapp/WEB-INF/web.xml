@@ -22,6 +22,12 @@
   	<description></description>
   	<servlet-class>AdminServ</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ImageServl</servlet-name>
+  	<display-name>ImageServl</display-name>
+  	<description></description>
+  	<servlet-class>ImageServl</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>RegisterServ</servlet-name>
   	<url-pattern>/RegisterServ</url-pattern>
@@ -34,4 +40,9 @@
   	<servlet-name>AdminServ</servlet-name>
   	<url-pattern>/AdminServ</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ImageServl</servlet-name>
+  	<url-pattern>/ImageServl</url-pattern>
+  </servlet-mapping>
+  
 </web-app>

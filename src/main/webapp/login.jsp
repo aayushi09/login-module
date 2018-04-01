@@ -13,7 +13,7 @@
 <h1 >StyleMe</h1></div>
 	<div class="loginBox">
 
-		<img src="images/user.png" style="opacity:0.6;" class="user"> <br>
+		<img src="images/user2.png" style="opacity:0.6;" class="user"> <br>
 		
 		<p>
 		<h2 align="center">Sign In</h2>

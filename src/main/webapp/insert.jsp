@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="InsertServ" enctype='multipart/form-data' method="get">
+<form action="InsertServ" >
 			
 	Product Name:<input type="text" name="pname" placeholder="Enter Product Name "><br>
 	product size:<input type="text" name="psize" placeholder="Enter product size"><br>
@@ -20,7 +20,7 @@
 	product stock:<input type="text" name="stock" placeholder="Enter availability of product"><br>
 	product suitable for:<input type="text" name="suit" placeholder="Ethnic/western"><br>
 	image<input type="file" name="image"><br>
-	<input  type="submit" value="insert"background-color="#FFE633">
+	<input  type="submit" value="insert">
 	
 	
 		</form>

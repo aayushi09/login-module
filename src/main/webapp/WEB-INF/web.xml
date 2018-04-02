@@ -28,6 +28,24 @@
   	<description></description>
   	<servlet-class>ImageServl</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>InsertServ1</servlet-name>
+  	<display-name>InsertServ1</display-name>
+  	<description></description>
+  	<servlet-class>InsertServ1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Insert2</servlet-name>
+  	<display-name>Insert2</display-name>
+  	<description></description>
+  	<servlet-class>Insert2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>NewInsert</servlet-name>
+  	<display-name>NewInsert</display-name>
+  	<description></description>
+  	<servlet-class>NewInsert</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>RegisterServ</servlet-name>
   	<url-pattern>/RegisterServ</url-pattern>
@@ -43,6 +61,18 @@
   <servlet-mapping>
   	<servlet-name>ImageServl</servlet-name>
   	<url-pattern>/ImageServl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>InsertServ1</servlet-name>
+  	<url-pattern>/InsertServ1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Insert2</servlet-name>
+  	<url-pattern>/Insert2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>NewInsert</servlet-name>
+  	<url-pattern>/NewInsert</url-pattern>
   </servlet-mapping>
   
 </web-app>

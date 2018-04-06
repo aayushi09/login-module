@@ -7,12 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="ImageServl">
-			
-	Image name:<input type="text" name="name" placeholder="Enter  Name "><br>
-	image<input type="file" name="image"><br>
-	<input  type="submit" value="insert"background-color="#FFE633">
-	</form>
 
 </body>
 </html>

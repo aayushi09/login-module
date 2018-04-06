@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="css/Register.css" / >
 <script type="text/javascript">
 	function validateform() {
 		var name = document.myform.name.value;
@@ -42,20 +43,26 @@
 	}
 </script>
 </head>
-<body>
+<body> 
+<p>
+		<div class="title"><h2 align="center"> Register Here</h2></div>
+		</p>
+   <div class="RegisterBox" >
 	<form name="myform" action="RegisterServ"
 		onsubmit="return validateform()">
+		
 
-		Enter Name : <input type="text" name="name"><br>
-		 Enter username : <input type="text" name="uname"><br>
-		  Enter email : <input type="text" name="email"><br> 
-		  Enter phone number : <input type="text" name="pno"><br> 
-		  Enter address: <input type="text" name="add"><br> 
-		  Enter password : <input type="password" name="pass"><br> <input type="submit"
+		  Enter Name : <input type="text" name="name" placeholder="Enter full name"><br>
+		  Enter username : <input type="text" name="uname" placeholder="enter username"><br>
+		  Enter email : <input type="text" name="email" placeholder="contact@example.com"><br> 
+		  Enter phone number : <input type="text" name="pno" placeholder="+91**********"><br> 
+		  Enter address: <input type="text" name="add" placeholder="street no.,colony,city"><br> 
+		  Enter password : <input type="password" name="pass" placeholder="******"><br> <input type="submit"
 			value="sign up">
 
 
 
 	</form>
+	</div>
 </body>
 </html>

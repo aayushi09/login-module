@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="InsertServ" >
+<form action="InsertServlett" enctype="multipart/form-data" >
 			
 	Product Name:<input type="text" name="pname" placeholder="Enter Product Name "><br>
 	product size:<input type="text" name="psize" placeholder="Enter product size"><br>
@@ -24,6 +24,5 @@
 	
 	
 		</form>
-
 </body>
 </html>

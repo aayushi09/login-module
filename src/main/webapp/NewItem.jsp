@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="NewInsert" enctype="multipart/form-data" >
+<form action="NewInsert" method="post"  >
 			
 	Product Name:<input type="text" name="pname" placeholder="Enter Product Name "><br>
 	product size:<input type="text" name="psize" placeholder="Enter product size"><br>
@@ -19,7 +19,7 @@
 	product description:<input type="text" name="description" placeholder="Enter product description"><br>
 	product stock:<input type="text" name="stock" placeholder="Enter availability of product"><br>
 	product suitable for:<input type="text" name="suit" placeholder="Ethnic/western"><br>
-	image<input type="file" name="image"><br>
+	Image<input type="file" name="image">
 	<input  type="submit" value="insert">
 	
 	

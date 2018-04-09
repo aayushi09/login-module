@@ -1,10 +1,13 @@
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.Date;
 
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+@Entity
 public class Item {
 	@Id @GeneratedValue(strategy=GenerationType.AUTO)
 	@Column(name="pid")
@@ -18,7 +21,7 @@ public class Item {
 	private String ptype;
 	private String pstatus;
 	private String description;
-	private String date;
+	private Date date;
 	private String stock;
 	@Column(name="suitable_for")
 	private String suit;
@@ -72,12 +75,12 @@ public class Item {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getDate() {
+	
+	public Date getDate() {
 		return date;
 	}
-	public void setDate() {
-		Date date1 = new Date();
-		date=date1.toString();
+	public void setDate(Date date) {
+		this.date = date;
 	}
 	public String getStock() {
 		return stock;
@@ -94,8 +97,9 @@ public class Item {
 	public byte[] getPimage() {
 		return pimage;
 	}
-	public void setPimage(byte[] pimage) {
-		this.pimage = pimage;
+	public void setPimage(byte[] bFile) {
+		
+	        this.pimage=bFile;
 	}
 	
 	

@@ -38,6 +38,12 @@
   	<description></description>
   	<servlet-class>NewInsert</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>GetPhotoServlet</servlet-name>
+  	<display-name>GetPhotoServlet</display-name>
+  	<description></description>
+  	<servlet-class>GetPhotoServlet</servlet-class>
+  </servlet>
   
   
   
@@ -65,6 +71,10 @@
   <servlet-mapping>
   	<servlet-name>NewInsert</servlet-name>
   	<url-pattern>/NewInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GetPhotoServlet</servlet-name>
+  	<url-pattern>/GetPhotoServlet</url-pattern>
   </servlet-mapping>
  
   
